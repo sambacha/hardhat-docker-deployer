@@ -1,0 +1,27 @@
+{
+  "name": "hh-docker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat deploy",
+    "compile": "npx hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/hardhat-docker-deployer.git"
+  },
+  "keywords": [
+    "hardhat",
+    "solidity"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/hardhat-docker-deployer/issues"
+  },
+  "homepage": "https://github.com/sambacha/hardhat-docker-deployer#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.10",
+    "ethers": "^5.4.7"
+  }
+}
